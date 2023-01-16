@@ -1,0 +1,86 @@
+
+body{
+    background-color: beige;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+
+    
+
+}
+
+img{ 
+    width: 100%;
+   
+}
+
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+h2{
+    font-size: 2rem;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+}
+li{
+    display: inline-block ;
+   margin-top: 1%;
+   margin-bottom: 1%;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 10px;
+   width: 20%;
+  
+}
+a{
+    color: aliceblue;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+article p{
+    padding: 1%;
+}
+.product{
+    padding: 1%;
+    height: 400px;
+}
+
+@media screen and (max-width: 500px) {
+    section {
+      display: block;
+    }
+  }
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+    margin: 1%;
+}
+
+footer div p{
+    text-align: center;
+}
